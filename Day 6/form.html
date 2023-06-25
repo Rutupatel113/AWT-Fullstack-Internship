@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        label{
+            font-size: large;
+        }
+        .box{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        form{
+            background-color: rgba(0, 0, 0, 0.312);
+            background-image: url(back.jpg);
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="box">
+        <form>
+            <fieldset>  
+                <legend><h2>SignUp Form</h2></legend>
+                    <i class="fa-solid fa-user"></i>
+                    <label>Username:</label><br>
+                    <input type="text"><br><br><br>
+
+                    <i class="fa-solid fa-graduation-cap "></i>
+                    <label>Enrollment No:</label><br>
+                    <input type="text"><br><br><br>
+
+                    <i class="fa-solid fa-key"></i>
+                    <label>Password:</label><br>
+                    <input type="text"><br><br><br>
+
+                    <i class="fa-solid fa-person-half-dress"></i>
+                    <label>Gender</label>
+                    <input type="radio">
+                    <i class="fa-solid fa-person" style="color:#070d2c;"></i>
+                    <label>Male</label>
+                    <input type="radio">
+                    <i class="fa-solid fa-person-dress" style="color: #751835;"></i>
+                    <label>Female</label><br><br>
+
+                    <i class="fa-solid fa-building-columns"></i>
+                    <label>College</label>
+                    <input type="checkbox">
+                    
+                    <label>ASOIT</label>
+                    <input type="checkbox">
+                    
+                    <label>SOCET</label><br><br><br>
+                    <input type="submit" value="Sign Up">   <br><br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
