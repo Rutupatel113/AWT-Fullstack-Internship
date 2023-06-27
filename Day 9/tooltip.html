@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tooltip</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Tooltip Example</h3>
+        <a href="#" data-toggle="tooltip"title="click me!">
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" style="height: 280px;">
+        <a href="#" data-toggle="tooltip"title="click me!">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzF4YFBE5HfhkUPYazU7eWuv0VmNu0PXBkWUx8KyRfuw&s" style="height: 280px;">
+    </a>
+    </a>
+      </div>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+</body>
+</html>
