@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ola {
+    display: flex;
+
+    justify-content: start;
+}
+
+.daa {
+    margin-left: 15px;
+}
+
+.main {
+    height: 1500px;
+}
+
+.aaa {
+    margin-left: 1.1rem;
+}
+
+.haa :hover{
+    background-color:blue;
+    transition-duration: 0.5s;
+}
+.item :hover {
+    color: red;
+    transition: 0.2s;
+}
+
+.card {
+    border-radius: 4px;
+    color: white;
+    box-sizing: border-box;
+    background: #201818f1;
+    box-shadow: 0 10px 20px rgb(140, 133, 153), 0 4px 8px rgb(35, 75, 88);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgb(133, 87, 129), 0 4px 8px rgb(35, 116, 55);
+}
+
+.kal {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.card h3 {
+    font-weight: 600;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.set li {
+    padding-left: 50px;
+    list-style: none;
+    padding: 15px 0px;
+
+}
+
+.just {
+    display: flex;
+    justify-content: center;
+    margin-top: -76px;
+}
+
+.background-video {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 950px;
+    z-index: -1;
+}
+
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.link :hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(13, 230, 238);
+    transition: 1s;
+}
+
+
+
+
+.first {
+    transition: 200px 2s, transform 2s;
+    /* margin: 50px 0px; */
+    transition-duration: 4s;
+}
+
+.first :hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    transition-duration: 2s;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.second {
+    /* transition: 200px 2s,transform 2s;  */
+    /* margin: 50px 0px; */
+    transition-duration: 4s;
+}
+
+.second :hover {
+    transform: rotate(160deg);
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    transition-duration: 2s;
+}
+
+.img {
+    background-image: url('dev2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    /* background-size: 0; */
+    z-index: -1;
+    background-position: center;
+}
+
+#quali {
+    z-index: 1;
+    padding-top: 15px;
+
+}
+
+.img2{
+    background-image: url('dev2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    /* background-size: 0; */
+    z-index: -1;
+    background-position: center;
+    margin-bottom: 50px;
+}
+#skill{
+    z-index: 1;
+    padding-top: 15px;
+    margin-bottom: 50px;
+
+}
